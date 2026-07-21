@@ -9,7 +9,7 @@ export function LogoHeader({ width = 300, height = 190 }: LogoHeaderProps) {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../../assets/Logo Recto negro.png')}
+        source={require('../../assets/LogoRectonegro.png')}
         style={{ width, height }}
         resizeMode='contain'
       />
